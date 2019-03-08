@@ -351,6 +351,15 @@ template {
 
 
 /* ==================================================================================================================================================== MOJ CSS */
+/* unvisited link */
+a {
+  color: #1B24FB;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #ccc;
 }
@@ -401,6 +410,13 @@ li a {
   width: 80%;
 }
 
+.footer_full_BGD{
+  background-color: #353535;
+  padding: 0px 0px 30px 0px;
+  margin: auto;
+  width: 100%;
+}
+
 .article_images_BGD{
   background-color: #353535;
   padding: 0px 0px 100px 0px;
@@ -433,11 +449,12 @@ li a {
 .home-about {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   padding: 50px 0px;
   width: 55%;
   line-height: 30px;
   margin: 0px 0px 130px 0px;
+  color: #5C5C5C;
 }
 
 /* Portfolio grid CSS START*/
@@ -448,6 +465,7 @@ li a {
 .column {
   float: left;
   width: 33.33%;
+  margin: 0px 0px 60px 0px;
 }
 
 /* Clear floats after the columns */
@@ -458,7 +476,7 @@ li a {
 }
 
 .row{
-  margin: 0px 0px 60px 0px;
+  
 }
 .image_portfolio{
   width:95%;
@@ -568,7 +586,7 @@ li a {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  margin: 7px 0px 50px 0px;
+  margin: 7px 0px 120px 0px;
   color: #5C5C5C;
 }
 
@@ -581,3 +599,28 @@ li a {
   color: #5C5C5C;
 }
 
+  @media (max-width: 800px) { 
+
+    .about_text{
+      margin: 20px 0px 40px 0px;
+    }
+    .column {
+      float: none;
+      width: 100%;
+    }
+
+    .home-about {
+      width: 100%;
+      margin: 0px 0px 50px 0px;
+    }
+
+    .column_description {
+      float: none;
+      width: 100%;  
+    }
+
+    .article_description-VH{
+      padding: 10vh 0px 0px 0px;
+
+    }
+}
