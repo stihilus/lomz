@@ -623,4 +623,12 @@ li a {
       padding: 10vh 0px 0px 0px;
 
     }
+
+    .social_link{
+      display: none;
+    }
+
+    .image_portfolio{
+    width:100%;
+}
 }
