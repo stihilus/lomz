@@ -547,7 +547,7 @@ li a {
   border-top: 1px solid black;
   margin: auto;
   width: 80%;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 50px 0px;
 }
 
 .article_footer{
@@ -555,7 +555,7 @@ li a {
   background-color: #353535;
   margin: auto;
   width: 80%;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 50px 0px;
 }
 
 .footer_text_right{
@@ -577,6 +577,11 @@ li a {
 }
 
 .column_description {
+  float: left;
+  width: 50%;
+}
+
+.column_footer {
   float: left;
   width: 50%;
 }
