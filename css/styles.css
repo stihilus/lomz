@@ -604,6 +604,19 @@ li a {
   color: #5C5C5C;
 }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-bottom: 50px;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -639,6 +652,9 @@ li a {
 #myBtn:hover {
   background-color: #ccc;
 }
+
+
+/* ==================================================================================================================================================== MOBILE 800px */
 
   @media (max-width: 800px) { 
 
