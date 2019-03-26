@@ -21,7 +21,14 @@ function setup() {
 	imageMode(CENTER);
 
 	//first graphic
-	 // Layer 01 - povrsine
+	// Layer 01 - povrsine
+  	reset();
+  	var images_skener = [img02, img03, img04, img05, img21];
+  	var slika_skener = random(images_skener); // select random image from images array
+  	rotate(random(380));
+  	translate(random(-500, 500), random(-500, 500));
+  	image(slika_skener, 0, 0); // stampanje slike
+  	// Layer 02 - povrsine
   	reset();
   	var images_skener = [img02, img03, img04, img05, img21];
   	var slika_skener = random(images_skener); // select random image from images array
