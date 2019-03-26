@@ -66,11 +66,4 @@ function mouseClicked() {
 	var slika_skener = random(images_skener); // select random image from images array
 	translate(random(-300, 300), random(-300, 300));
 	image(slika_skener, 0, 0); // stampanje slike
-
-	// Layer 02 - elektronika
-	reset();
-	var images_skener = [img11, img12, img13, img14, img15, img16, img17, img18];
-	var slika_skener = random(images_skener); // select random image from images array
-	translate(random(-300, 300), random(-300, 300));
-	image(slika_skener, 0, 0); // stampanje slike
 }
