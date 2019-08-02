@@ -1,2 +1,2 @@
 # lomz
-Lomz Website
+www.lomz.net
