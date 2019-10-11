@@ -21,20 +21,34 @@ function setup() {
 	imageMode(CENTER);
 
 	//first graphic
-	// Layer 01 - povrsine
-  	reset();
-  	var images_skener = [img02, img03, img04, img05, img21];
-  	var slika_skener = random(images_skener); // select random image from images array
-  	rotate(random(380));
-  	translate(random(-500, 500), random(-500, 500));
-  	image(slika_skener, 0, 0); // stampanje slike
-  	// Layer 02 - povrsine
-  	reset();
-  	var images_skener = [img02, img03, img04, img05, img21];
-  	var slika_skener = random(images_skener); // select random image from images array
-  	rotate(random(380));
-  	translate(random(-500, 500), random(-500, 500));
-  	image(slika_skener, 0, 0); // stampanje slike
+// Layer 01 - povrsine
+	reset();
+	var images_skener = [img02, img03, img04, img05, img21];
+	var slika_skener = random(images_skener); // select random image from images array
+	rotate(random(380));
+	translate(random(-500, 500), random(-500, 500));
+	image(slika_skener, 0, 0); // stampanje slike
+
+	// Layer 02 - providne sare
+	reset();
+	var images_skener = [img06, img07, img08, img09, img10];
+	var slika_skener = random(images_skener); // select random image from images array
+	//translate(random(-500, 500), random(-500, 500));
+	image(slika_skener, 0, 0); // stampanje slike
+
+	// Layer 02 - elektronika
+	reset();
+	var images_skener = [img11, img12, img13, img14, img15, img16, img17, img18];
+	var slika_skener = random(images_skener); // select random image from images array
+	translate(random(-300, 300), random(-300, 300));
+	image(slika_skener, 0, 0); // stampanje slike
+
+	// Layer 02 - elektronika
+	reset();
+	var images_skener = [img11, img12, img13, img14, img15, img16, img17, img18];
+	var slika_skener = random(images_skener); // select random image from images array
+	translate(random(-300, 300), random(-300, 300));
+	image(slika_skener, 0, 0); // stampanje slike
 }
 
 
